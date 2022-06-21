@@ -1,3 +1,18 @@
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,78,117,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/*
+h1{
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: xxx-large;
+  color: #EADDCA;
+}
+*/
+
 .headerPage{
   margin-left: auto;
   margin-right: auto;
@@ -6,4 +21,39 @@
 
 .headerPage td{
   padding-right: 20px;
+  padding-top: 18%
+
+}
+.headerPage td a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+  color: #EADDCA;
+}
+
+.logo{
+  position: absolute;
+  top: 0px;
+  right: 47%
+
+
+}
+
+.firstParagraph{
+  padding-top: 5%;
+  text-align: center;
+  color: white;
+}
+
+.firstParagraph li{
+  list-style-type: square;
+  color: 		#E5E4E2;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+}
+
+.firstParagraph li:nth-child(n+2){
+  margin-top: 50px;
+  margin-left: 6%;
 }
